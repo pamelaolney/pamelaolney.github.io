@@ -20,11 +20,13 @@ h1 a{
   text-decoration:none;
   color: black;
   font-weight: 100;
+  font-size: 55px;
 }
 h1{
   color: black;
   border-bottom:1.5px solid black;
   text-align: center;
+  margin-top: -10px;
 }
 .head:hover{
   background: black;
@@ -48,8 +50,11 @@ nav a {
   background: white;
   color:black;
   padding: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
   display: inline-block;
   border: 2px solid black;
+  font-size: 30px;
 
 }
 nav a:hover{

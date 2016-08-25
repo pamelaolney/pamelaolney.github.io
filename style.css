@@ -21,19 +21,63 @@ h1 a{
   color: black;
   font-weight: 100;
   font-size: 55px;
+  transition: 0.5s;
+  cursor: pointer;
+  position: relative;
 }
+
+
 h1{
-  color: black;
+  color: none;
   border-bottom:1.5px solid black;
   text-align: center;
   margin-top: -10px;
+  font-size: 55px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
+
 .head:hover{
   background: black;
 }
-h1 a:hover{
+.hoverhead:hover{
   color:green;
 }
+
+/*set up animation for header*/
+h1 a:after {
+  content: "}";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+  }
+
+  h1:hover a:after{
+    opacity: 1;
+    right: 10;
+  }
+h1:hover a{
+  padding-left: 25px;
+}
+
+
+h1 a:before {
+  content: "{ ";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+}
+
+h1:hover a:before{
+  opacity: 1;
+  left: 0;
+}
+
+/*set up animation for header*/
+
 
 nav {
   background-color: black;

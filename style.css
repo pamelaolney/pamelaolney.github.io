@@ -1,5 +1,6 @@
 *{
-  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Quicksand', sans-serif;*/
+  font-family: 'Orbitron', sans-serif;
 }
 
 html, body{
@@ -12,15 +13,20 @@ body {
   background: white;
   background-size: cover;
   background-position: center;
+  /*background-image: url("http://wallpapersrang.com/wp-content/uploads/2015/12/hd-space-wallpapers-1080p-large-hd-wallpaper-database.jpg");*/
   color: white;
   font-family: Sans-serif;
+
+}
+
+.head{
+  background: rgba(0,0,0,.7);
 }
 
 h1 a{
   text-decoration:none;
-  color: black;
+  color: white;
   font-weight: 100;
-  font-size: 55px;
   transition: 0.2s;
   cursor: pointer;
   position: relative;
@@ -31,8 +37,8 @@ h1{
   color: none;
   border-bottom:1.5px solid black;
   text-align: center;
-  margin-top: -7px;
-  font-size: 55px;
+  margin-top: 5px;
+  font-size: 44px;
   transition: all 0.2s;
   cursor: pointer;
 }
@@ -80,7 +86,7 @@ h1:hover a:before{
 
 
 nav {
-  background-color: white;
+  background-color: rgba(217, 217, 242,.1);
   text-decoration: none;
   position: fixed;
   bottom: 0;
@@ -91,13 +97,15 @@ nav {
 
 nav a {
   text-decoration: none;
-  background: white;
+  background-color: rgba(217, 217, 242,.1);
+  /*background: white;*/
   color:black;
   padding: 5px;
   padding-right: 30px;
   padding-left: 30px;
   display: inline-block;
   font-size: 30px;
+  transition: all 0.2s;
 }
 
 nav a:hover{
@@ -189,21 +197,21 @@ nav a:hover{
   position: abosolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  left: -30px;
   transition: 0.3s;
 }
 
 .navbar a:hover #about{
-  padding-left: 5px;
+  padding-left: 25px;
 }
 .navbar a:hover #projects{
-  padding-left: 5px;
+  padding-left: 25px;
 }
 .navbar a:hover #resume{
-  padding-left: 5px;
+  padding-left: 25px;
 }
 .navbar a:hover #contact{
-  padding-left: 5px;
+  padding-left: 25px;
 }
 
 .navbar a:hover #about:before{

@@ -1,0 +1,38 @@
+body{
+  background: rgb(238,13,95);
+}
+.name{
+  color: white;
+  font-size: 78px;
+  margin:12%;
+  max-width: 85%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 40em;
+  animation: type 7s steps(70, end);
+}
+
+#cursor{
+  animation: type 4s steps(60, end);
+  animation: blink 1s infinite;
+}
+
+@keyframes type{
+  from { width: 0;}
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+@keyframes position{
+  to{margin: 50%}
+}
+
+.borderline{
+  background: white;
+  height: 1px;
+  width: 70%;
+  margin-top: -10%;
+  margin-left: 16%;
+}

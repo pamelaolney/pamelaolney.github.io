@@ -151,8 +151,14 @@ h2{
 
 img{
   float: left;
+  margin: 30px;
+  border: 8px solid black;
 }
 
+#image{
+float: left;
+margin: 50%;
+}
 
 /* container styles end */
 
@@ -175,10 +181,10 @@ img{
 #slide2{
   background-color: white;
   color: #333333;
-  height: 300px;
-  margin: 0 auto;
+  height: 700px;
+  margin: 0;
   overflow: hidden;
-  padding: 200px 0;
+  padding: 75px 0;
 }
 
 #slide3{

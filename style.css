@@ -88,6 +88,12 @@ h2{
   opacity: 0.6;
 }
 
+#nav li a.active {
+  color: #fff; opacity:1;
+  border-bottom: 2px solid #fff;
+}
+
+
 /*navbar end*/
 
 

@@ -101,7 +101,7 @@ h2{
 
 
 .name{
-  color: rgb(155, 155, 208);
+  color: white;
   font-size: 44px;
   margin: 0;
   text-align: center;
@@ -176,9 +176,10 @@ margin: 50%;
 }
 
 #slide1{
-  background: url('http://media.idownloadblog.com/wp-content/uploads/2015/01/wallpaper-amazing-milkyway-space-mountain-red-9-wallpaper.jpg') 50% 0 no-repeat fixed;
+  /*background: url('http://media.idownloadblog.com/wp-content/uploads/2015/01/wallpaper-amazing-milkyway-space-mountain-red-9-wallpaper.jpg') 50% 0 no-repeat fixed;*/
+  background: url("galaxy.jpg") 50% 0 no-repeat fixed;
   color: white;
-  height: 6000px;
+  height: 700px;
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;

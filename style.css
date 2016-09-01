@@ -34,17 +34,25 @@ h2{
   max-width: 960px;
 }
 
+.content_header{
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
 .clear{
   clear: both;
 }
 /*navbar begin*/
 
 #header{
-  width: 100%;
-  background: rgba(100, 0, 208, 0.6);
   height: 80px;
+  width: 100%;
+  background: black;
   position: fixed;
   margin-top: 0;
+  left: 0;
+  border-bottom: 2px solid black;
 }
 
 #nav{
@@ -112,6 +120,18 @@ h2{
   animation: type 7s steps(70, end);
 }
 
+.name2{
+  color: white;
+  font-size: 44px;
+  margin: 0;
+  text-align: center;
+  max-width: 85%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 40em;
+  animation: type2 7s steps(70, end);
+}
+
 #cursor{
   animation: type 4s steps(60, end);
   animation: blink 1s infinite;
@@ -119,6 +139,12 @@ h2{
 
 @keyframes type{
   from { width: 0;}
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{width: 100;}
 }
 
 @keyframes blink{
@@ -144,15 +170,12 @@ h2{
 }
 
 .backgroundcontainer{
-  padding: 60px;
-  background: rgba(0, 0, 0, 0.7);;
+  margin: 0 auto;
+  max-width: 810px;
 }
 
-#divider{
-  background: url('http://static.tumblr.com/e121f50d38756dbf0f3b9c0f4e3f7228/58ymght/BNpn5l1lf/tumblr_static_5o868q2dwbk08cswc0sksgcks.png')no-repeat;
-  width: 300px;
-  height: 35px;
-  margin: 0px auto 27px auto;
+.backgroundcontainer2{
+  max-width: 650px;
 }
 
 img{
@@ -177,7 +200,7 @@ margin: 50%;
 
 #slide1{
   /*background: url('http://media.idownloadblog.com/wp-content/uploads/2015/01/wallpaper-amazing-milkyway-space-mountain-red-9-wallpaper.jpg') 50% 0 no-repeat fixed;*/
-  background: url("galaxy.jpg") 50% 0 no-repeat fixed;
+  background: url("stars.jpg") 50% 0 no-repeat fixed;
   color: white;
   height: 700px;
   margin: 0;

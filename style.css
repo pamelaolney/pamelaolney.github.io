@@ -1,5 +1,7 @@
 *{
-  font-family: "Lucida Console", Monaco, monospace;;
+  /*font-family: "Lucida Console", Monaco, monospace;;*/
+  font-family: 'Josefin Slab', serif;
+
 }
 
 body{
@@ -120,6 +122,13 @@ h2{
   animation: type 7s steps(70, end);
 }
 
+#divider{
+  background: white;
+  height: 2px;
+  width: 880px%;
+  margin: 20px auto;
+}
+
 .name2{
   color: white;
   font-size: 44px;
@@ -171,11 +180,11 @@ h2{
 
 .backgroundcontainer{
   margin: 0 auto;
-  max-width: 810px;
+  max-width: 660px;
 }
 
 .backgroundcontainer2{
-  max-width: 650px;
+  max-width: 500px;
 }
 
 img{
@@ -200,7 +209,7 @@ margin: 50%;
 
 #slide1{
   /*background: url('http://media.idownloadblog.com/wp-content/uploads/2015/01/wallpaper-amazing-milkyway-space-mountain-red-9-wallpaper.jpg') 50% 0 no-repeat fixed;*/
-  background: url("stars.jpg") 50% 0 no-repeat fixed;
+  background: url("stars2.jpg") 50% 0 no-repeat fixed;
   color: white;
   height: 700px;
   margin: 0;

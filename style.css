@@ -99,6 +99,7 @@ h2{
   position: relative;
 }
 
+
 #nav li:hover a{
   color: white;
   opacity: 0.6;
@@ -127,6 +128,23 @@ h2{
   border-bottom: 2px solid #fff;
 }
 
+
+.social{
+  height: 30px;
+}
+
+#links ul{
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#links li{
+  margin-top: 20px;
+  float: left;
+  padding-left: 21px;
+}
 
 
 /*navbar end*/
@@ -212,7 +230,7 @@ h2{
   max-width: 500px;
 }
 
-img{
+.content img{
   float: left;
   margin: 30px;
   border: 8px solid black;

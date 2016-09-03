@@ -73,6 +73,11 @@ h2{
   font-weight: bold;
 }
 
+#logo p{
+  color: white;
+font-size: 12px;
+}
+
 #nav ul{
   list-style: none;
   display: block;
@@ -102,7 +107,7 @@ h2{
 
 #nav li:hover a{
   color: white;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
   border-bottom: 2px solid #fff;
   padding-left: 25px;
 }
@@ -110,6 +115,7 @@ h2{
 #nav li a:before {
   content: ":~$";
   font-weight: bolder;
+  font-size: 19px;
   position: absolute;
   opacity: 0;
   top: 0;
@@ -148,6 +154,17 @@ h2{
 
 
 /*navbar end*/
+
+/* shrinking navbar begin */
+
+#menu-icon{
+  width: 40px;
+  height: 40px;
+  /*background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJbzpa8BCQqVmI_O08Qjl03SAceEoO_RxxTv3R3xG3F0o3fRZq2g") center;*/
+  background: #4C8FEC url("http://extremeplasticsplus.com/sites/all/themes/extremeplastics/img/menu_icon.png");
+}
+/* shrinking navbar end */
+
 
 
 

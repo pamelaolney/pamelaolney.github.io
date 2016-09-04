@@ -180,7 +180,7 @@ h2{
   float: right;
   margin-top: -7%;
   /*background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJbzpa8BCQqVmI_O08Qjl03SAceEoO_RxxTv3R3xG3F0o3fRZq2g") center;*/
-  background: url("http://extremeplasticsplus.com/sites/all/themes/extremeplastics/img/menu_icon.png") center;
+  background: black url("http://extremeplasticsplus.com/sites/all/themes/extremeplastics/img/menu_icon.png") center;
 }
 
 a:hover#menu-icon {

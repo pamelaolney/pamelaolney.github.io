@@ -11,6 +11,10 @@ body{
   max-width: 100%;
 }
 
+p{
+  font-size: 25px;
+}
+
 h1{
   font-weight: normal;
   font-size: 55px;
@@ -180,7 +184,7 @@ h2{
 }
 
 a:hover#menu-icon {
-  background: url(stars.gif);
+  background: url("images/stars.gif");
   border-radius: 4px 4px 0 0;
 }
 
@@ -304,12 +308,18 @@ a:hover#menu-icon {
 
 .content img{
   float: left;
-  margin: 30px;
+  margin: 20px;
 }
+
 
 #image{
 float: left;
 margin: 50%;
+}
+
+#aboutme {
+  border: 4px solid black;
+  border-radius: 12px;
 }
 
 /* container styles end */
@@ -323,7 +333,7 @@ margin: 50%;
 
 #slide1{
   /*background: url('http://media.idownloadblog.com/wp-content/uploads/2015/01/wallpaper-amazing-milkyway-space-mountain-red-9-wallpaper.jpg') 50% 0 no-repeat fixed;*/
-  background: url("stars2.jpg") 50% 0 no-repeat fixed;
+  background: url("images/stars2.jpg") 50% 0 no-repeat fixed;
   color: white;
   height: 1200px;
   margin: 0;
@@ -341,7 +351,7 @@ margin: 50%;
 }
 
 #slide3{
-  background: url('greenpaint.jpg') 50% 0 no-repeat fixed;
+  background: url('images/greenpaint.jpg') 50% 0 no-repeat fixed;
   color: white;
   height: 600px;
   padding: 170px 0 0 0;
@@ -356,7 +366,7 @@ margin: 50%;
 }
 
 #slide5{
-  background: url('pinkpaint.jpg') 50% 0 no-repeat fixed;
+  background: url('images/pinkpaint.jpg') 50% 0 no-repeat fixed;
   height: 200px;
   margin: 0 auto;
   padding: 250px 0;

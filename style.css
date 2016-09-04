@@ -307,19 +307,68 @@ a:hover#menu-icon {
 }
 
 .content img{
-  float: left;
-  margin: 20px;
-}
-
-
-#image{
-float: left;
-margin: 50%;
 }
 
 #aboutme {
-  border: 4px solid black;
+  border: 8px solid black;
   border-radius: 12px;
+  float: left;
+  margin: 10px;
+  height: 350px;
+}
+
+.programming{
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.imagecenter{
+  margin: 0 10%;
+}
+
+.space{
+  height: 100px;
+}
+
+.button{
+  height: 40px;
+  width: 200px;
+  background: rgb(139, 212, 212);
+  border: 2px solid black;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.button:hover{
+  background: rgb(139, 212, 212) url('images/sparkles.gif');
+}
+
+.wrapbutton{
+  width: 100%;
+  margin: 0 30%;
+}
+
+form{
+  /*float: right;*/
+  margin: 0 5%;
+}
+
+.wrapcontent{
+  background: rgba(255, 0, 0, 0.3);
+  padding: 5%;
+}
+
+.work{
+  height: 200px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.work:hover{
+  border-bottom: 5px solid black;
 }
 
 /* container styles end */
@@ -361,7 +410,7 @@ margin: 50%;
 #slide4{
   background-color: white;
   color: #333333;
-  height: 300px;
+  height: 700px;
   padding: 200px 0;
 }
 

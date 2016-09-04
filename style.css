@@ -48,19 +48,28 @@ h2{
 /*navbar begin*/
 
 #header{
-  height: 80px;
   width: 100%;
+  height: 80px;
   background: black;
   position: fixed;
-  margin-top: 0;
+  top: 0;
   left: 0;
   border-bottom: 2px solid black;
+  z-index: 100;
 }
 
 #nav{
   width: 700px;
-  float: left;
+  float: right;
   margin-top: 20px;
+}
+
+#logo{
+  /*margin: 20px;*/
+  float: left;
+  /*width: 200px;*/
+  height: 40px;
+  display: block;
 }
 
 #logo a{
@@ -73,10 +82,6 @@ h2{
   font-weight: bold;
 }
 
-#logo p{
-  color: white;
-font-size: 12px;
-}
 
 #nav ul{
   list-style: none;
@@ -158,11 +163,54 @@ font-size: 12px;
 /* shrinking navbar begin */
 
 #menu-icon{
-  width: 40px;
-  height: 40px;
+  display: none;
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin-top: -7%;
   /*background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJbzpa8BCQqVmI_O08Qjl03SAceEoO_RxxTv3R3xG3F0o3fRZq2g") center;*/
-  background: #4C8FEC url("http://extremeplasticsplus.com/sites/all/themes/extremeplastics/img/menu_icon.png");
+  background: url("http://extremeplasticsplus.com/sites/all/themes/extremeplastics/img/menu_icon.png") center;
 }
+
+a:hover#menu-icon {
+  background: url(stars.gif);
+  border-radius: 4px 4px 0 0;
+}
+
+@media only screen and (max-width: 640px) {
+
+  header{
+    position: absolute;
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+  #nav ul, #nav:active ul{
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: black;
+    border: 5px solid #444;
+    right: 20px;
+    top: 60px;
+    width: 50%;
+    border-radius: 4px 0 4px 4px;
+  }
+
+  #nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  #nav:hover ul{
+    display: block;
+  }
+}
+
 /* shrinking navbar end */
 
 
@@ -287,7 +335,7 @@ margin: 50%;
 }
 
 #slide3{
-  background: url('http://static.vecteezy.com/system/resources/previews/000/116/076/original/free-vector-green-watercolor-background.jpg') 50% 0 no-repeat fixed;
+  background: url('berrywater.jpg') 50% 0 no-repeat fixed;
   color: white;
   height: 600px;
   padding: 170px 0 0 0;
@@ -302,7 +350,7 @@ margin: 50%;
 }
 
 #slide5{
-  background: url('http://www.ozwallpaper.com/wp-content/uploads/2016/02/Cool-Pink-Background-Wallpapers.jpg') 50% 0 no-repeat fixed;
+  background: url('bluewater.jpg') 50% 0 no-repeat fixed;
   height: 200px;
   margin: 0 auto;
   padding: 250px 0;

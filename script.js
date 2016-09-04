@@ -11,8 +11,13 @@ $(document).ready(function(){
         $(this).addClass('active');
         $('html,body')
         .animate({scrollTop: targetOffset}, 1000);
-       return false;
+        return false;
       }
     }
   });
+
+
+
+
+
 });

@@ -365,10 +365,12 @@ form{
   height: 200px;
   padding: 10px;
   border-radius: 25px;
+  background: black;
+  margin: 5px;
 }
 
 .work:hover{
-  border-bottom: 5px solid black;
+  border-bottom: 10px solid black;
 }
 
 /* container styles end */

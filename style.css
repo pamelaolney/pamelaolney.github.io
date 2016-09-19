@@ -375,6 +375,20 @@ form{
 
 /* container styles end */
 
+.projects{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.projects:hover{
+  background: rgba(0, 0, 50, 0.5);;
+}
+
 
 /*slides begin*/
 

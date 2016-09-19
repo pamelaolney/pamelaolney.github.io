@@ -244,7 +244,7 @@ a:hover#menu-icon {
 #divider{
   background: white;
   height: 2px;
-  width: 880px%;
+  max-width: 880px;
   margin: 20px auto;
 }
 
@@ -347,7 +347,7 @@ a:hover#menu-icon {
 }
 
 .wrapbutton{
-  width: 100%;
+  max-width: 100%;
   margin: 0 30%;
 }
 
@@ -363,10 +363,9 @@ form{
 
 .work{
   height: 200px;
-  padding: 10px;
-  border-radius: 25px;
-  background: black;
-  margin: 5px;
+  padding: 30px;
+  background: rgb(39, 38, 64);
+  margin: 0 auto;
 }
 
 .work:hover{

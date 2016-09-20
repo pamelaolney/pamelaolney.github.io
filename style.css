@@ -362,14 +362,14 @@ form{
 }
 
 .work{
-  height: 200px;
+  height: 160px;
   padding: 30px;
-  background: rgb(39, 38, 64);
+  background: whitesmoke;
   margin: 0 auto;
 }
 
 .work:hover{
-  border-bottom: 10px solid black;
+  background: url("images/angles.gif");
 }
 
 /* container styles end */

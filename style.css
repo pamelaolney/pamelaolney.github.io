@@ -301,10 +301,66 @@ a:hover#menu-icon {
   margin: 50px auto;
 }
 
-.info_container{
-  max-width: 800px;
-  margin: 0 auto;
+.content .intro{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*border: 2px solid black;*/
+  text-shadow: .5px .5px 1px #000000;
 }
+
+.work{
+  height: 160px;
+  padding: 30px;
+  background: whitesmoke;
+  margin: 0 auto;
+  float:left;
+}
+
+
+.work:hover{
+  background: url("images/angles.gif");
+}
+
+.box{
+  height: 160px;
+  width: 600px;
+  font-size: 20px;
+  float:right;
+  padding: 20px;
+}
+
+.box p{
+  padding: 2px;
+
+}
+
+.container{
+  height: 320px;
+  width: 960px;
+}
+
+.viewwork{
+  margin-left: auto;
+  margin-right: auto;
+  width: 13em
+}
+
+.viewwork a{
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.viewwork a:hover{
+  text-shadow: 1px 1px 2px green;
+}
+
+
 
 .backgroundcontainer{
   margin: 0 auto;
@@ -342,50 +398,15 @@ a:hover#menu-icon {
   height: 3em;
 }
 
-.space{
-  height: 100px;
+.resume a{
+  color: white;
 }
 
-.button{
-  height: 40px;
-  width: 200px;
-  background: rgb(139, 212, 212);
-  border: 2px solid black;
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bolder;
-}
 
 .button:hover{
   background: rgb(139, 212, 212) url('images/sparkles.gif');
 }
 
-.wrapbutton{
-  max-width: 100%;
-  margin: 0 30%;
-}
-
-form{
-  /*float: right;*/
-  margin: 0 5%;
-}
-
-.wrapcontent{
-  background: rgba(255, 0, 0, 0.3);
-  padding: 5%;
-}
-
-.work{
-  height: 160px;
-  padding: 30px;
-  background: whitesmoke;
-  margin: 0 auto;
-}
-
-.work:hover{
-  background: url("images/angles.gif");
-}
 
 /* container styles end */
 .viewproject{
@@ -412,8 +433,20 @@ form{
   border-bottom: none;
 }
 
+.wrapcontent{
+  margin-left: auto;
+  margin-right: auto;
+  width: 49em;
+}
 
+.wrapcontent a{
+  text-decoration: none;
+  color: black;
+}
 
+.wrapcontent a:hover{
+  border-bottom: 1px dashed black;
+}
 
 /*slides begin*/
 
@@ -432,36 +465,21 @@ form{
   background-size: cover;
 }
 
-/*#slide2{
-  background-color: white;
-  color: #333333;
-  height: 700px;
-  margin: 0;
-  overflow: hidden;
-  padding: 75px 0;
-}*/
-
 #slide3{
   background: white;
   color: black;
-  height: 600px;
+  height: 1500px;
   padding: 170px 0 0 0;
   background-size: cover;
 }
 
-#slide4{
-  background-color: white;
-  color: #333333;
-  height: 700px;
-  padding: 200px 0;
-}
 
 #slide5{
-  background: url('images/pinkpaint.jpg') 50% 0 no-repeat fixed;
+  background: white;
   height: 200px;
   margin: 0 auto;
   padding: 250px 0;
-  color: white;
+  color: black;
   background-size: cover;
 }
 

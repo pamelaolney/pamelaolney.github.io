@@ -302,13 +302,13 @@ a:hover#menu-icon {
 }
 
 .content .intro{
-  color: white;
+  color: black;
   font-size: 40px;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
   /*border: 2px solid black;*/
-  text-shadow: .5px .5px 1px #000000;
+  text-shadow: 2px 2px 4px gray;
 }
 
 .work{

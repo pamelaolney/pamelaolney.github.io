@@ -434,9 +434,7 @@ a:hover#menu-icon {
 }
 
 .wrapcontent{
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+  text-align: center;
 }
 
 .wrapcontent a{

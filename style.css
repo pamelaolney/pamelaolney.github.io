@@ -103,6 +103,7 @@ h2{
 }
 
 #nav li a{
+  font-family: Courier;
   color: white;
   opacity: 1;
   font-size: 16px;
@@ -118,11 +119,11 @@ h2{
   color: white;
   /*opacity: 0.6;*/
   border-bottom: 2px solid #fff;
-  padding-left: 25px;
+  padding-left: 60px;
 }
 
 #nav li a:before {
-  content: ":~$";
+  content: ":~$  /";
   font-weight: bolder;
   font-size: 19px;
   position: absolute;
@@ -133,7 +134,7 @@ h2{
 }
 
 #nav li:hover a:before{
-  color: purple;
+  color: gray;
   opacity: 1;
   left: 0;
 }
@@ -230,7 +231,7 @@ a:hover#menu-icon {
 
 
 .name{
-  color: white;
+  color: black;
   font-size: 44px;
   margin: 0;
   text-align: center;
@@ -242,14 +243,14 @@ a:hover#menu-icon {
 }
 
 #divider{
-  background: white;
+  background: black;
   height: 2px;
   max-width: 880px;
   margin: 20px auto;
 }
 
 .name2{
-  color: white;
+  color: black;
   font-size: 44px;
   margin: 0;
   text-align: center;
@@ -375,11 +376,11 @@ form{
 /* container styles end */
 
 .projects{
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 30px;
   font-weight: bold;
-  border: 2px solid white;
+  border: 2px solid black;
   padding: 10px;
   border-radius: 10px;
 }
@@ -397,9 +398,10 @@ form{
 
 #slide1{
   /*background: url('http://media.idownloadblog.com/wp-content/uploads/2015/01/wallpaper-amazing-milkyway-space-mountain-red-9-wallpaper.jpg') 50% 0 no-repeat fixed;*/
-  background: url("images/stars2.jpg") 50% 0 no-repeat fixed;
+  /*background: url("images/stars2.jpg") 50% 0 no-repeat fixed;*/
+  background: white;
   color: white;
-  height: 1200px;
+  height: 500px;
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;

@@ -53,7 +53,7 @@ h2{
 
 #header{
   width: 100%;
-  height: 80px;
+  height: 60px;
   background: black;
   position: fixed;
   top: 0;
@@ -64,7 +64,7 @@ h2{
 
 #nav{
   width: 700px;
-  float: right;
+  float: left;
   margin-top: 20px;
 }
 
@@ -149,24 +149,8 @@ border-bottom: 2px solid white;
 
 
 
-/*navbar end*/
-
-/*footerbar begin*/
-
-#header2{
-  width: 100%;
-  height: 80px;
-  background: white;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  border-top: 1px solid #e7e7e7;
-  z-index: 100;
-}
-
-
 .social{
-  height: 40px;
+  height: 30px;
   border: none;
 }
 
@@ -184,22 +168,26 @@ border-bottom: 2px solid white;
 }
 
 #links li{
-  margin: 10px 30px 10px -20px;
-  float: left;
+  margin: 20px 30px 0 -20px;
+  float: right;
   padding-left: 0;
 }
+/*navbar end*/
 
 
-/*footerbar end*/
+
+
+
 
 /* shrinking navbar begin */
 
 #menu-icon{
   display: none;
+  padding-right: 50px;
   width: 60px;
-  height: 60px;
-  float: right;
-  margin-top: -7%;
+  height: 55px;
+  float: left;
+  margin-top: -3%;
   /*background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJbzpa8BCQqVmI_O08Qjl03SAceEoO_RxxTv3R3xG3F0o3fRZq2g") center;*/
   background: black url("http://extremeplasticsplus.com/sites/all/themes/extremeplastics/img/menu_icon.png") center;
 }
@@ -225,7 +213,7 @@ a:hover#menu-icon {
     padding: 20px;
     background: black;
     border: 5px solid #444;
-    right: 20px;
+    left: 20px;
     top: 60px;
     width: 50%;
     border-radius: 4px 0 4px 4px;
@@ -345,7 +333,13 @@ a:hover#menu-icon {
 }
 
 .imagecenter{
-  margin: 0 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70em;
+}
+
+.imagecenter img{
+  height: 2em;
 }
 
 .space{
@@ -409,7 +403,7 @@ form{
   width: 6.5em;
   border-bottom: 2px solid black;
   padding-bottom: 20px;
-
+  margin-bottom: 30px;
 }
 
 .projects:hover{
@@ -438,18 +432,18 @@ form{
   background-size: cover;
 }
 
-#slide2{
+/*#slide2{
   background-color: white;
   color: #333333;
   height: 700px;
   margin: 0;
   overflow: hidden;
   padding: 75px 0;
-}
+}*/
 
 #slide3{
-  background: url('images/greenpaint.jpg') 50% 0 no-repeat fixed;
-  color: white;
+  background: white;
+  color: black;
   height: 600px;
   padding: 170px 0 0 0;
   background-size: cover;

@@ -335,11 +335,11 @@ a:hover#menu-icon {
 .imagecenter{
   margin-left: auto;
   margin-right: auto;
-  width: 70em;
+  width: 95em;
 }
 
 .imagecenter img{
-  height: 2em;
+  height: 3em;
 }
 
 .space{

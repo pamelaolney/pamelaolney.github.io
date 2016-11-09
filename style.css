@@ -86,6 +86,9 @@ h2{
   font-weight: bold;
 }
 
+#logo a:hover{
+border-bottom: 2px solid white;
+}
 
 #nav ul{
   list-style: none;
@@ -145,8 +148,25 @@ h2{
 }
 
 
+
+/*navbar end*/
+
+/*footerbar begin*/
+
+#header2{
+  width: 100%;
+  height: 80px;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #e7e7e7;
+  z-index: 100;
+}
+
+
 .social{
-  height: 60px;
+  height: 40px;
   border: none;
 }
 
@@ -164,13 +184,13 @@ h2{
 }
 
 #links li{
-  margin-top: 20px;
+  margin: 10px 30px 10px -20px;
   float: left;
-  padding-left: 21px;
+  padding-left: 0;
 }
 
 
-/*navbar end*/
+/*footerbar end*/
 
 /* shrinking navbar begin */
 
@@ -374,20 +394,31 @@ form{
 }
 
 /* container styles end */
+.viewproject{
+  list-style: none;
+}
 
 .projects{
   color: black;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  border: 2px solid black;
-  padding: 10px;
-  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6.5em;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+
 }
 
 .projects:hover{
-  background: rgba(0, 0, 50, 0.5);;
+  background: url("images/line.gif") 10px;
+  background-position: 10% 31%;
+  border-bottom: none;
 }
+
+
 
 
 /*slides begin*/
@@ -401,7 +432,7 @@ form{
   /*background: url("images/stars2.jpg") 50% 0 no-repeat fixed;*/
   background: white;
   color: white;
-  height: 500px;
+  height: 200px;
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;

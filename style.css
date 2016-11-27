@@ -317,6 +317,7 @@ a:hover#menu-icon {
   background: whitesmoke;
   margin: 0 auto;
   float:left;
+  border: 2px solid gray;
 }
 
 

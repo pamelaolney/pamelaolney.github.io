@@ -20,6 +20,7 @@ Import Google Fonts
 body {
 	margin: 0px;
 	font-family: "Raleway", Sans-serif;
+    background-color: #9f2b2b;
 }
 
 h1,
@@ -31,7 +32,7 @@ h6 {
 	font-weight: 200;
 	letter-spacing: 0.4px;
 	font-family: "Raleway", Sans-serif;
-	color: #232323;
+	color: #c88585;
 }
 
 p {
@@ -176,6 +177,14 @@ section {
 .section-title h2 {
 	font-size: 45px;
 	text-transform: uppercase;
+}
+.section-title h1 {
+	font-size: 100px;
+	text-transform: uppercase;
+}
+
+.section-title h4 {
+    text-transform: uppercase;
 }
 
 .section-title p {
@@ -348,7 +357,7 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
+	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #fff;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
@@ -404,7 +413,7 @@ figure.effect-bubba:hover p {
 --------------------*/
 
 .light-bg {
-    background: #f1f1f1;
+    background: #2b1717;
 }
 
 /*--------------------

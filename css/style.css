@@ -357,24 +357,25 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid #c88585;
+	border-bottom: 1px solid #c88585;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
+	border-right: 1px solid #c88585;
+	border-left: 1px solid #c88585;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
 
 figure.effect-bubba h2 {
-    color: #fff;
+    color: #c88585;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 1px 1px 2px #2b1717;
 	padding-top: 30%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;

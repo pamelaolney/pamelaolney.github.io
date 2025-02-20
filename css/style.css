@@ -63,7 +63,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section {
-	padding: 12px 0 0px;
+	padding: 28px 0 0px;
 }
 
 /*--------------------
@@ -181,6 +181,7 @@ section {
 .section-title h1 {
 	font-size: 100px;
 	text-transform: uppercase;
+    text-shadow: 1px 1px 2px #2b1717;
 }
 
 .section-title h4 {
@@ -384,7 +385,7 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba p {
-    color: #fff;
+    color: #c88585;
     font-size: 13px;
     font-weight: 500;
 	padding: 8px 2.5em;

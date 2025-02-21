@@ -20,6 +20,7 @@ Import Google Fonts
 body {
 	margin: 0px;
 	font-family: "Raleway", Sans-serif;
+    background-color: #9f2b2b;
 }
 
 h1,
@@ -31,7 +32,7 @@ h6 {
 	font-weight: 200;
 	letter-spacing: 0.4px;
 	font-family: "Raleway", Sans-serif;
-	color: #232323;
+	color: #c88585;
 }
 
 p {
@@ -62,7 +63,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section {
-	padding: 35px 0 60px;
+	padding: 28px 0 0px;
 }
 
 /*--------------------
@@ -176,6 +177,15 @@ section {
 .section-title h2 {
 	font-size: 45px;
 	text-transform: uppercase;
+}
+.section-title h1 {
+	font-size: 100px;
+	text-transform: uppercase;
+    text-shadow: 1px 1px 2px #2b1717;
+}
+
+.section-title h4 {
+    text-transform: uppercase;
 }
 
 .section-title p {
@@ -321,7 +331,7 @@ figcaption {
 
 figure.effect-bubba {
 	background: #000;
-	margin-bottom: 1px;
+	margin-bottom: 5px;
 }
 
 figure.effect-bubba img {
@@ -348,24 +358,25 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid #c88585;
+	border-bottom: 1px solid #c88585;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
+	border-right: 1px solid #c88585;
+	border-left: 1px solid #c88585;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
 
 figure.effect-bubba h2 {
-    color: #fff;
+    color: #c88585;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 1px 1px 2px #2b1717;
 	padding-top: 30%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -374,7 +385,7 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba p {
-    color: #fff;
+    color: #c88585;
     font-size: 13px;
     font-weight: 500;
 	padding: 8px 2.5em;
@@ -404,7 +415,7 @@ figure.effect-bubba:hover p {
 --------------------*/
 
 .light-bg {
-    background: #f1f1f1;
+    background: #2b1717;
 }
 
 /*--------------------

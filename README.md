@@ -1,1 +1,1 @@
-https://pamelaolney.github.io/
+https://www.pamelaolney.com/

@@ -1,11 +1,18 @@
 describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
-  })
-  it('visit portfolio', () => {
+  beforeEach(() => {
     cy.visit('../index.html')
-    // click on contact form
-    //expect contact form to show
+  })
+  it('visit portfolio homepage', () => {
+    cy.url().should('include', 'index.html')
+  })
+  it('click on contact form', () => {
+    cy.get('#contact-form-button')
+      .invoke("removeAttr", "target")
+      .click()
+
+    cy.origin('https://form.jotform.com', () => {
+      cy.get('[data-component="header"]').should('have.text', 'Contact Pamela')
+    })
   })
   it('submit contact form', () => {
     //fill out form
